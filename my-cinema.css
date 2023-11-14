@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(255, 80, 80);
+  display: flex;
+  size: 3vh;
+  padding: 2% 5% 2% 5%;
+}
+
+
+header>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header>div>:last-child {
+  justify-content: space-between;
+  column-gap: 17px;
+}
+
+header>div>nav>img {
+  size: 3%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav>:first-child {
+  color: black;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(0, 0, 0, 0.914);
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  row-gap: 10px;
+  justify-content: space-between;
+  padding: 0 8% 0 8%;
+  margin-bottom: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white
+}
+
+p {
+  width: 75%;
+}
